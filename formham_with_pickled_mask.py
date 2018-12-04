@@ -8,15 +8,16 @@ import pickle
 PCname=str(sys.argv[1])
 print PCname
 noc=5#number doubly occ orbs
-nst=100#just excited states	
+nstmax=100# number excited states in the X.dat
+nst=100# number of states to compute couplings for 
 nbf=25
 nvir=nbf-noc
 nov=noc*nvir
 H = FortranFile(PCname+'.dat', 'w')
 Vfile = FortranFile(PCname, 'r')
 Xfile = FortranFile('Xmat.dat', 'r')
-# Xmat.dat holds the transition density for nst many states
-X = np.transpose(Xfile.read_reals(dtype=np.float).reshape((nst,nov)))
+# Xmat.dat holds the transition density for nstmax many states
+X = np.transpose(Xfile.read_reals(dtype=np.float).reshape((nstmax,nov)))
 #
 #  Recover the mask from pickle
 #
