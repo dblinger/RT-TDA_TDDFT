@@ -6,13 +6,11 @@ import pickle
 import sys
 
 
-noc=5#number doubly occ orbs
-nst=100#just excited states	
-nbf=25
+noc=5 # number doubly occ orbs
+nst=100 # just excited states	
+nbf=25 # number basis functions
 nvir=nbf-noc
 nov=noc*nvir
-H = FortranFile(PCname+'.dat', 'w')
-Vfile = FortranFile(PCname, 'r')
 Xfile = FortranFile('Xmat.dat', 'r')
 # Xmat.dat holds the transition density for nst many states
 X = np.transpose(Xfile.read_reals(dtype=np.float).reshape((nst,nov)))
