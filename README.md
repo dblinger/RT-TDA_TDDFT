@@ -14,3 +14,5 @@ Then, run pickled_mask.py.  This will chug on the Xmat.dat to generate lists of 
 Then, run run_formham.sh, which will run formham_with_pickled_mask.py using the pickled mask to generate full hamiltonians for each coord from coords.inp.  Just be sure to  change the loop to be consistent with numenr of points in coords.inp.
 
 Now that you have loads of number.dat files, run RTTD.py.  It will pick these hamiltonians up as it need and do the propagation of a point charge with positive velocity along z, starting from 0,0,-100.
+
+Also, some scripts from my earlier versions of nwchem that print groun to excited state couplings only directly to files.  grab_couplings processes those files, and form_cube puts them into cube format (needs the appropriate header information to be cat'ed as well)
