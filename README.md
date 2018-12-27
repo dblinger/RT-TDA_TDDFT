@@ -1,8 +1,9 @@
 # RT-TDA_TDDFT
 # RT-TDA_TDDFT
 
+Place int_1e_ga.F in nwchem/src/ddscf, int_1estv.F in nwchem/src/NWints/api, and tddft_analysis.F in nwchem/src/nwdft/lr_tddft and compile NWchem. 
 
-First, run my modified NWchem with coords.inp file setup with the structure:
+To get matrix elements (evaluated on a predifined grid) for RT-TDA propagation, run modified NWchem with coords.inp file setup with the structure:
 
 (int) number of points
 (floats) x y z of point 1
