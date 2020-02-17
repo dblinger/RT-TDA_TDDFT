@@ -20,9 +20,9 @@ def spec(time,dip):
     w = fftfreq(n,d=timestep)*2.0*np.pi # frequency list
    
     fw_abs = abs(fw)                    # absolute value of frequencies
-    
+    fw_im  = np.imag(fw) 
     w = (w*27.2114)    # give frequencies in eV
-    return w,fw_abs 
+    return w,fw_im
 
 if __name__ == '__main__':
 

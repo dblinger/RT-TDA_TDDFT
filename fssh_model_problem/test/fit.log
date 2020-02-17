@@ -1,0 +1,388 @@
+
+
+*******************************************************************************
+Sun Feb  2 17:25:21 2020
+
+
+FIT:    data read from 'num_hops_per_step.txt'
+        format = z
+        x range restricted to [0.00000 : 140.000]
+        #datapoints = 133
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*exp(-x/b) + (1-a)*exp(-x**2/c)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.3295290762e+14   0.00e+00  4.46e-01    1.000000e+00   1.000000e+03   1.000000e+02   1.000000e+00
+
+Current data point
+=========================
+#               = 125 out of 133
+x               = 1.00404e+06    
+z               = 999745         
+
+Current set of parameters
+=========================
+a               = 1.00404e+06    
+b               = 6.90305e+07    
+c               = -21.4145       
+d               = 1              
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Sun Feb  2 17:25:59 2020
+
+
+FIT:    data read from 'num_hops_per_step.txt'
+        format = z
+        x range restricted to [0.00000 : 140.000]
+        #datapoints = 133
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*exp(-x/b) + (1-a)*exp(-x**2/c)
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 125 out of 133
+x               = 1.00404e+06    
+z               = 999745         
+
+Current set of parameters
+=========================
+a               = 1.00404e+06    
+b               = 6.90305e+07    
+c               = -21.4145       
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Sun Feb  2 17:26:21 2020
+
+
+FIT:    data read from 'num_hops_per_step.txt'
+        format = z
+        x range restricted to [0.00000 : 140.000]
+        #datapoints = 133
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*exp(-x/b) + (1-a)*exp(-x**2/c)
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 125 out of 133
+x               = 0.9            
+z               = 999745         
+
+Current set of parameters
+=========================
+a               = 0.9            
+b               = 6.90305e+07    
+c               = -21.4145       
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Sun Feb  2 17:27:20 2020
+
+
+FIT:    data read from 'num_hops_per_step.txt' u 0:1
+        format = x:z
+        #datapoints = 133
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*exp(-x/b) + (1-a)*exp(-x**2/c)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.3295315361e+14   0.00e+00  2.52e-02    1.000000e+00   1.000000e+00   1.000000e+00
+
+Current data point
+=========================
+#               = 5 out of 133
+x               = 999490         
+z               = 999955         
+
+Current set of parameters
+=========================
+a               = 999490         
+b               = 2.92779e+06    
+c               = -0.0206235     
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Sun Feb  2 17:28:32 2020
+
+
+FIT:    data read from 'num_hops_per_step.txt' u 0:1
+        format = x:z
+        #datapoints = 133
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a*exp(b*x)
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 2 out of 133
+x               = 999490         
+z               = 999984         
+
+Current set of parameters
+=========================
+a               = 999490         
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Sun Feb  2 17:28:34 2020
+
+
+FIT:    data read from 'num_hops_per_step.txt' u 0:1
+        format = x:z
+        #datapoints = 133
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a*exp(b*x)
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 2 out of 133
+x               = 999490         
+z               = 999984         
+
+Current set of parameters
+=========================
+a               = 999490         
+b               = 2.92779e+06    
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Sun Feb  2 17:29:03 2020
+
+
+FIT:    data read from 'num_hops_per_step.txt' u 0:($1/100000)
+        format = x:z
+        #datapoints = 133
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a*exp(b*x)
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 2 out of 133
+x               = 999490         
+z               = 9.99984        
+
+Current set of parameters
+=========================
+a               = 999490         
+b               = 2.92779e+06    
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Sun Feb  2 17:30:42 2020
+
+
+FIT:    data read from 'num_hops_per_step.txt' u 0:1
+        format = x:z
+        #datapoints = 133
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a*exp(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.2106929802e+114  0.00e+00  1.97e+58    1.000000e+00   1.000000e+00
+   1 8.0791607689e+113 -5.45e+05  1.97e+57    9.999497e-01   9.929313e-01
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 8.07916e+113
+rel. change during last iteration : -5.44955
+
+degrees of freedom    (FIT_NDF)                        : 131
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.85321e+55
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.1673e+111
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.99995          +/- 25.16        (2516%)
+b               = 0.992931         +/- 0.1786       (17.99%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb  2 17:31:07 2020
+
+
+FIT:    data read from 'num_hops_per_step.txt' u 0:1
+        format = x:z
+        #datapoints = 133
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a*exp(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.0799738483e+113  0.00e+00  7.71e+57   -1.000000e+00   9.929313e-01
+   1 1.2516831133e+113 -5.46e+05  7.71e+56   -9.999489e-01   9.858591e-01
+
+The maximum lambda = 1.000000e+20 was exceeded. Fit stopped.
+final sum of squares of residuals : 1.25168e+113
+rel. change during last iteration : -5.45529
+
+degrees of freedom    (FIT_NDF)                        : 131
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.09109e+55
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.55483e+110
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.999949        +/- 24.93        (2494%)
+b               = 0.985859         +/- 0.1771       (17.97%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b               1.000  1.000 
+
+
+*******************************************************************************
+Sun Feb  2 17:31:19 2020
+
+
+FIT:    data read from 'num_hops_per_step.txt' u 0:1
+        format = x:z
+        #datapoints = 133
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a*exp(b*x)
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 2 out of 133
+x               = -0.999949      
+z               = 0.99984        
+
+Current set of parameters
+=========================
+a               = -0.999949      
+b               = 10000          
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Sun Feb  2 17:31:44 2020
+
+
+FIT:    data read from 'num_hops_per_step.txt' u 0:1
+        format = x:z
+        #datapoints = 133
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a*exp(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.3553179282e+02   0.00e+00  6.13e-02   -9.999489e-01  -1.000000e+03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Sun Feb  2 17:31:54 2020
+
+
+FIT:    data read from 'num_hops_per_step.txt' u 0:1
+        format = x:z
+        #datapoints = 133
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a*exp(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.3052482452e+02   0.00e+00  7.24e-02    1.000000e+00  -1.000000e+00
+  23 5.4567955810e-06  -1.83e-07  7.24e-05    9.993860e-01  -1.740539e-05
+
+After 23 iterations the fit converged.
+final sum of squares of residuals : 5.4568e-06
+rel. change during last iteration : -1.82623e-12
+
+degrees of freedom    (FIT_NDF)                        : 131
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000204095
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.16549e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.999386         +/- 3.522e-05    (0.003524%)
+b               = -1.74054e-05     +/- 4.618e-07    (2.653%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.864  1.000 
+
+
+*******************************************************************************
+Sun Feb  2 17:33:33 2020
+
+
+FIT:    data read from 'num_hops_per_step.txt' u 0:1
+        format = x:z
+        #datapoints = 133
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f1(x)
+	f1(x) = a*exp(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 5.4567955810e-06   0.00e+00  7.06e-01    9.993860e-01  -1.740539e-05
+   1 5.4567955810e-06  -2.41e-09  7.06e-02    9.993860e-01  -1.740539e-05
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 5.4568e-06
+rel. change during last iteration : -2.40599e-14
+
+degrees of freedom    (FIT_NDF)                        : 131
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000204095
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.16549e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.999386         +/- 3.522e-05    (0.003524%)
+b               = -1.74054e-05     +/- 4.618e-07    (2.653%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.864  1.000 
