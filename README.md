@@ -6,8 +6,11 @@ Place int_1e_ga.F in nwchem/src/ddscf, int_1estv.F in nwchem/src/NWints/api, and
 To get matrix elements (evaluated on a predifined grid) for RT-TDA propagation, run modified NWchem with coords.inp file setup with the structure:
 
 (int) number of points
+
 (floats) x y z of point 1
+
 (floats) x y z of point 2
+
 ...
 
 (print_coords.py is a helper script to prepare these points on a grid in the same order as expected for a cube file.)
