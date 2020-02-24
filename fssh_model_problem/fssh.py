@@ -70,6 +70,7 @@ for istep in range(nsteps-1):
 
 ntraj=1000000
 
+#TODO do an outwe loop over start times. This should do away with oscillatory decay rates.
 for traj in range(ntraj):
   for istep in range(nsteps):
     if (hopprob[istep]>np.random.random_sample()):

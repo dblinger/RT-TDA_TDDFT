@@ -13,12 +13,12 @@ import itertools
 #
 # DBL DBL DBL DBL DBL DBL DBL DBL DBL DBL DBL DBL DBL DBL DBL DBL DBL DBL DBL DBL DBL DBL DBL
 
-dt = 4.134 
+dt = 1.0 
 nst=2
 #
 # get mat elements
 #
-Filename   = 'fssh.dat'
+Filename   = 'data.txt'
 data = np.genfromtxt(Filename)
 E1      = data[:,0]
 E2      = data[:,1]
