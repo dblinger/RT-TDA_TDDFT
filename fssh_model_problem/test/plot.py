@@ -9,13 +9,13 @@ data = np.genfromtxt(Filename)
 hops=data[:,1]
 print str(hops)
 numhops=len(hops)
-totalsteps=100000
-pops=np.zeros(133)
-
+numsteps=6980
+pops=np.zeros(numsteps)
+numtraj=100000
 for i in range(numhops):
   hopstep=int(hops[i])
   pops[hopstep]=pops[hopstep]+1.0
-pops[0]=100000
-for i in range(1,133):
+pops[0]=numtraj
+for i in range(1,numsteps):
   pops[i]=pops[i-1]-pops[i]
-np.savetxt('num_hops_per_step.txt', np.transpose([pops/100000]))  
+np.savetxt('num_hops_per_step.txt', np.transpose([pops/numtraj]))  
